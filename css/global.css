@@ -1,0 +1,155 @@
+@import url(./fonts.css);
+@import url(./header.css);
+@import url(./service.css);
+@import url(./offer.css);
+@import url(./rank.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Livvic", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 1210px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  padding: 9px 33px 11px 32px;
+  border-radius: 25px;
+  border: 2px solid transparent;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 600;
+  font-family: "Livvic", sans-serif;
+  transition: 0.3s;
+}
+
+.btn:active {
+  opacity: 0.6;
+}
+
+.btn-white {
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+.btn-white:hover {
+  background-color: #ffffff;
+  color: #002529;
+}
+
+.btn-dark {
+  border-color: #012f34;
+  color: #012f34;
+}
+
+.btn-dark:hover {
+  background-color: #012f34;
+  color: #ffffff;
+}
+
+.text-red {
+  color: #f67e7e;
+}
+
+.divider {
+  height: 4px;
+  width: 50px;
+}
+.pink-divider {
+  background-color: #79c8c7;
+}
+
+.red-divider {
+  background-color: #f67e7e;
+}
+
+.footer {
+  background-color: #002529;
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 165px;
+  margin-right: auto;
+}
+
+.footer-logo-container {
+  display: flex;
+  flex-direction: column;
+}
+.footer-logo-image {
+  margin-bottom: 25px;
+}
+.footer-logo-list {
+  display: flex;
+  gap: 40px;
+}
+.footer-logo-item {
+}
+.footer-logo-link {
+  color: #ffffff;
+}
+.footer-link-container {
+  display: flex;
+  flex-direction: column;
+}
+.footer-link-list {
+  display: flex;
+  flex-direction: column;
+}
+.footer-link-item {
+}
+.footer-link-link {
+  color: #ffffff;
+  margin-right: auto;
+}
+
+.footer-icon-text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-icon-container {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 51px;
+}
+
+.footer-icon-bottom-text {
+  color: #ffffff;
+}

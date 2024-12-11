@@ -1,0 +1,21 @@
+.rank {
+  background-color: #f67e7e;
+  background-image: url(../images/rank-left-bottom.svg);
+  background-repeat: no-repeat;
+  background-position: left bottom -100px;
+}
+.rank-container {
+  width: 917px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 76px 260px 76px 263px;
+}
+
+.rank-title {
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #012f34;
+}
